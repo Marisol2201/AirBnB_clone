@@ -1,9 +1,10 @@
+/*TASK 7*/
 .places {
 
     display: flex;
-    /*Specifies that the flexible items will wrap if necessary*/
+    /*applies if combined width of items is greater than container's*/
     flex-wrap: wrap;
-    /*elements in the center, even the last*/
+    /*alignment along the x axis*/
     justify-content: center;
 }
 
