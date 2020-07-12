@@ -1,0 +1,28 @@
+.places {
+
+    display: flex;
+    /*Specifies that the flexible items will wrap if necessary*/
+    flex-wrap: wrap;
+    /*elements in the center, even the last*/
+    justify-content: center;
+}
+
+.places h1 {
+    font-size: 30px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+}
+
+.places article h2 {
+    margin: auto;/*the browser calculates the margin*/
+    text-align: center;
+    font-size: 30px;
+}
