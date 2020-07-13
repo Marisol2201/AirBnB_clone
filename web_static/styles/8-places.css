@@ -56,6 +56,9 @@
     /*alignment along the x axis*/
     justify-content: center;
     margin-top: inherit;
+    padding-top: 5px;
+    align-items: center;
+    padding-left: 40px;
 }
 
 .max_guest {
@@ -78,10 +81,11 @@
 }
 
 .user {
-    margin-right: 100px;
+    padding-right: 100px;
+    margin-right: 40px;
 }
 
 .description {
-    margin-left: 49px;
+    margin-left: 27px;
     margin-top: -25px;
 }
